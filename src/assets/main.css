@@ -1,0 +1,53 @@
+
+
+:root {
+    --tree-grey: #1d1d1d;
+  }
+  
+  
+  html,
+  body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    min-height: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .workspaceContainer {
+    background: var(--tree-grey);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .monaco-tree {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe WPC,Segoe UI,HelveticaNeue-Light,Ubuntu,Droid Sans,sans-serif;
+  }
+  
+  .monaco-tree-row {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  
+  .fill {
+    width: 100%;
+    height: 100%;
+  }
+  

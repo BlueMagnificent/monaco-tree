@@ -1,0 +1,175 @@
+/*
+
+Folder and file icon classes using vscode icons
+
+*/
+
+
+
+/*********************************
+            FOLDER ICONS
+*********************************/
+
+.monaco-tree-row .folder-icon::before {
+    content: url("./vscode-icons/default_folder.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder-icon::before {
+
+    content: url("./vscode-icons/default_folder_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row .folder_type_css::before {
+    content: url("./vscode-icons/folder_type_css.svg") !important;
+    font-size: 150% !important;
+}
+
+.monaco-tree-row.expanded .folder_type_css::before {
+    content: url("./vscode-icons/folder_type_css_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row .folder_type_js::before {
+    content: url("./vscode-icons/folder_type_js.svg") !important;
+    font-size: 150% !important;
+}
+
+.monaco-tree-row.expanded .folder_type_js::before {
+    content: url("./vscode-icons/folder_type_js_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row .folder_type_images::before {
+    content: url("./vscode-icons/folder_type_images.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder_type_images::before {
+    content: url("./vscode-icons/folder_type_images_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+.monaco-tree-row .folder_type_public::before {
+    content: url("./vscode-icons/folder_type_public.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder_type_public::before {
+    content: url("./vscode-icons/folder_type_public_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+
+    
+.monaco-tree-row .folder_type_model::before {
+    content: url("./vscode-icons/folder_type_model.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder_type_model::before {
+    content: url("./vscode-icons/folder_type_model_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+    
+.monaco-tree-row .folder_type_controller::before {
+    content: url("./vscode-icons/folder_type_controller.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder_type_controller::before {
+    content: url("./vscode-icons/folder_type_controller_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+    
+.monaco-tree-row .folder_type_view::before {
+    content: url("./vscode-icons/folder_type_view.svg") !important;
+    font-size: 150% !important;
+}
+
+.monaco-tree-row.expanded .folder_type_view::before {
+    content: url("./vscode-icons/folder_type_view_opened.svg") !important;
+    font-size: 150% !important;
+}
+    
+
+.monaco-tree-row .folder_type_template::before {
+    content: url("./vscode-icons/folder_type_template.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.monaco-tree-row.expanded .folder_type_template::before {
+    content: url("./vscode-icons/folder_type_template_opened.svg") !important;
+    font-size: 150% !important;
+}
+
+
+
+/*********************************
+            FILE ICONS
+*********************************/
+
+
+.file_type_html::before {
+    content: url("./vscode-icons/file_type_html.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.file_type_js::before {
+    content: url("./vscode-icons/file_type_js.svg") !important;
+    font-size: 150% !important;
+}
+
+
+.file_type_css::before {
+    content: url("./vscode-icons/file_type_css.svg") !important;
+    font-size: 150% !important;
+}
+
+.file_type_text::before {
+    content: url("./vscode-icons/file_type_text.svg") !important;
+    font-size: 150% !important;
+}
+
+.file_type_json::before {
+    content: url("./vscode-icons/file_type_json.svg")!important;
+    font-size: 150% !important;
+}
+
+.file_type_image::before {
+    content: url("./vscode-icons/file_type_image.svg") !important;
+    font-size: 150% !important;
+}
+
+.file_type_favicon::before {
+    content: url("./vscode-icons/file_type_favicon.svg") !important;
+    font-size: 150% !important;
+}
+
+.file_type_markdown::before {
+    content: url("./vscode-icons/file_type_markdown.svg") !important;
+    font-size: 150% !important;
+}
+
+.file_type_npm::before {
+    content: url("./vscode-icons/file_type_npm.svg") !important;
+    font-size: 150% !important;
+}    
+
+.file_type_license::before {
+    content: url("./vscode-icons/file_type_license.svg") !important;
+    font-size: 150% !important;
+}
