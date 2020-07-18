@@ -11,7 +11,7 @@ Credits to [WebAssemblyStudio](https://github.com/wasdk/WebAssemblyStudio) whose
 
 CodeSandbox
 --------------
-For a quick preview [here is a code sandbox of it](https://codesandbox.io/s/github/BlueMagnificent/monaco-tree/)
+For a quick preview [here is a codesandbox of it](https://codesandbox.io/s/github/BlueMagnificent/monaco-tree/)
 
 
 Check It Out
