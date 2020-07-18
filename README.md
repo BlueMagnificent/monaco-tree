@@ -2,9 +2,17 @@ MONACO TREE
 -----------
 A fairly successful attempt in extracting the tree view element hidden in [Monaco Editor](https://github.com/microsoft/monaco-editor) and making a [React](https://github.com/facebook/react) component of it.
 
+It supports click events on tree nodes, context menu and also drag-n-drop ( you might want to open your browser console to see some logs).
+
+![sample](img.png)
 
 
 Credits to [WebAssemblyStudio](https://github.com/wasdk/WebAssemblyStudio) whose implementation approach was very helpful ( as well as some freely lifted codes :smiling_imp: ) 
+
+CodeSandbox
+--------------
+For a quick preview [here is a code sandbox of it](https://codesandbox.io/s/github/BlueMagnificent/monaco-tree/)
+
 
 Check It Out
 --------------
@@ -17,9 +25,8 @@ after which
 ```
  npm start
  ```
-Next visit [localhost:7070](localhost:7070) on your browser to see it.
+Next visit [localhost:7070](localhost:7070) on your browser.
 
-It supports click events on tree nodes, context menu and also drag-n-drop ( you might want to open your browser console to see some logs).
 
 Caveat
 -------
