@@ -1,10 +1,5 @@
 import React from 'react';
-import { MonacoTree } from '../lib/monaco-tree';
-import { TreeDnD } from '../lib/tree-dnd';
-import { generateDirectoryTree } from  '../lib/tree-generator';
-import { FileTemplate } from "../lib/template";
-import { directoryListing } from "../lib/directory-listing";
-import { Action, Separator } from "../lib/monaco-utils";
+import { MonacoTree, TreeDnD, generateDirectoryTree, FileTemplate, directoryListing, Action, Separator } from "../monaco-tree";
 
 
 const rootDirectoryName = "demo";
