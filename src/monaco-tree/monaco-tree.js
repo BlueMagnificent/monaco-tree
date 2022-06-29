@@ -37,7 +37,7 @@ class MonacoTree extends React.Component{
 
         } else {
           this.tree.model.refresh();
-          expandTree(this.tree);
+          this.expandTree(this.tree);
 
         }
 
