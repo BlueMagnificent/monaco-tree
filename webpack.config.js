@@ -10,7 +10,6 @@ module.exports = {
   },
 
   devServer: {
-    // inline: true,
     static: path.resolve(__dirname, 'dist'),
     port: 7070,
     historyApiFallback: true,

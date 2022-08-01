@@ -1,5 +1,4 @@
-import { getFileIconLabel } from "./file-utils";
-
+import { getFileIconLabel } from './file-utils';
 
 export class Template {
   /**
@@ -8,33 +7,31 @@ export class Template {
    * @memberof Template
    */
   constructor(container) {
-    this.monacoIconLabel = document.createElement("div");
-    this.monacoIconLabel.className = "monaco-icon-label";
-    this.monacoIconLabel.style.display = "flex";
+    this.monacoIconLabel = document.createElement('div');
+    this.monacoIconLabel.className = 'monaco-icon-label';
+    this.monacoIconLabel.style.display = 'flex';
     container.appendChild(this.monacoIconLabel);
 
-    const labelDescriptionContainer = document.createElement("div");
-    labelDescriptionContainer.className = "monaco-icon-label-description-container";
+    const labelDescriptionContainer = document.createElement('div');
+    labelDescriptionContainer.className =
+      'monaco-icon-label-description-container';
     this.monacoIconLabel.appendChild(labelDescriptionContainer);
 
-    this.label = document.createElement("a");
-    this.label.className = "label-name";
+    this.label = document.createElement('a');
+    this.label.className = 'label-name';
     labelDescriptionContainer.appendChild(this.label);
 
-    labelDescriptionContainer.style.overflow = "hidden";
-    labelDescriptionContainer.style.textOverflow = "ellipsis";
-    labelDescriptionContainer.style.whiteSpace = "nowrap";
+    labelDescriptionContainer.style.overflow = 'hidden';
+    labelDescriptionContainer.style.textOverflow = 'ellipsis';
+    labelDescriptionContainer.style.whiteSpace = 'nowrap';
 
-    this.description = document.createElement("span");
-    this.description.className = "label-description";
+    this.description = document.createElement('span');
+    this.description.className = 'label-description';
     labelDescriptionContainer.appendChild(this.description);
   }
 }
 
-
-
 export class FileTemplate extends Template {
-
   /**
    *Creates an instance of FileTemplate.
    * @param {HTMLElement} container
@@ -56,14 +53,13 @@ export class FileTemplate extends Template {
    */
   set(file) {
     //first reset the class name
-    this.monacoIconLabel.className = "monaco-icon-label";
-    this.monacoIconLabel.classList.remove("file-icon");
+    this.monacoIconLabel.className = 'monaco-icon-label';
+    this.monacoIconLabel.classList.remove('file-icon');
 
     const icon = getFileIconLabel(file.name, file.isDirectory);
 
-
-    if( !file.isDirectory ){
-        this.monacoIconLabel.classList.add("file-icon");
+    if (!file.isDirectory) {
+      this.monacoIconLabel.classList.add('file-icon');
     }
 
     if (icon) {
@@ -72,6 +68,5 @@ export class FileTemplate extends Template {
 
     this.label.innerHTML = file.name;
     this.monacoIconLabel.title = file.path;
-    
   }
 }

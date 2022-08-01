@@ -68,7 +68,7 @@ Folder and file icon classes using vscode icons
 }
 
 
-    
+
 .monaco-tree-row .folder_type_model::before {
     content: url("./vscode-icons/folder_type_model.svg") !important;
     font-size: 150% !important;
@@ -80,7 +80,7 @@ Folder and file icon classes using vscode icons
     font-size: 150% !important;
 }
 
-    
+
 .monaco-tree-row .folder_type_controller::before {
     content: url("./vscode-icons/folder_type_controller.svg") !important;
     font-size: 150% !important;
@@ -92,7 +92,7 @@ Folder and file icon classes using vscode icons
     font-size: 150% !important;
 }
 
-    
+
 .monaco-tree-row .folder_type_view::before {
     content: url("./vscode-icons/folder_type_view.svg") !important;
     font-size: 150% !important;
@@ -102,7 +102,7 @@ Folder and file icon classes using vscode icons
     content: url("./vscode-icons/folder_type_view_opened.svg") !important;
     font-size: 150% !important;
 }
-    
+
 
 .monaco-tree-row .folder_type_template::before {
     content: url("./vscode-icons/folder_type_template.svg") !important;
@@ -145,7 +145,7 @@ Folder and file icon classes using vscode icons
 }
 
 .file_type_json::before {
-    content: url("./vscode-icons/file_type_json.svg")!important;
+    content: url("./vscode-icons/file_type_json.svg") !important;
     font-size: 150% !important;
 }
 
@@ -167,7 +167,7 @@ Folder and file icon classes using vscode icons
 .file_type_npm::before {
     content: url("./vscode-icons/file_type_npm.svg") !important;
     font-size: 150% !important;
-}    
+}
 
 .file_type_license::before {
     content: url("./vscode-icons/file_type_license.svg") !important;
