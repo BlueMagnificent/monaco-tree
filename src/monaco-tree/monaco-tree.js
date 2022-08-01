@@ -30,7 +30,7 @@ class MonacoTree extends React.Component {
       this.setState({ directory: props.directory });
     } else {
       this.tree.model.refresh();
-      expandTree(this.tree);
+      this.expandTree(this.tree);
     }
   }
 
