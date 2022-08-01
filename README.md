@@ -21,9 +21,15 @@ Download the repository or clone it with git. Then
 ```
 npm install
 ```
+
+Then you're supposed to build project
+```
+npm run build
+```
+
 after which
 ```
- npm start
+ npm run start
  ```
 Next visit [localhost:7070](localhost:7070) on your browser.
 
