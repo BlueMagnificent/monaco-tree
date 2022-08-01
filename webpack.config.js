@@ -6,17 +6,17 @@ module.exports = {
 
   output: {
     filename: 'js/index.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist/build'),
   },
 
   devServer: {
-    inline: true,
-    contentBase: path.resolve(__dirname, 'dist'),
+    // inline: true,
+    static: path.resolve(__dirname, 'dist'),
     port: 7070,
     historyApiFallback: true,
   },
 
-  mode:"production",
+  mode: 'production',
 
   module: {
     rules: [
@@ -43,17 +43,14 @@ module.exports = {
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        loader: 'file-loader',
-        options: {
-          outputPath: 'assets',
-        },
+        type: 'asset/resource'
       },
       {
         test: /\.(jpe?g|png|gif)$/i,
         loader: 'file-loader',
-        options:{
-          name:"/img/[name].[ext]"
-        }
+        options: {
+          name: '/img/[name].[ext]',
+        },
       },
     ],
   },
